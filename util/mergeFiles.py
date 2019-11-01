@@ -102,8 +102,8 @@ class MergeFile(MergeFileHander):
         self.outputData.append(text)
 
 if __name__ == '__main__':
-    inputFilePath = r"C:\Study\github\Lookoops\interview\src"
-    outputFilePath = r"C:\Study\github\Lookoops\interview\README.md"
+    inputFilePath = r"C:\Study\github\Java-Note\src"
+    outputFilePath = r"C:\Study\github\Java-Note\README.md"
     headerText = """> 关于Java基础知识，JVM，多线程，计算机网络，数据库，分布式，算法，Java框架，测试，Linux等知识，详细答案见`/src/`目录下的细分内容，里面附有面经\n"""
 
     mergeTool = MergeFile(inputFilePath, outputFilePath)
